@@ -21,8 +21,10 @@
         <li><%= link_to 'About Me', home_about_path %><li>
         <li><%= link_to 'FAQ', home_faq_path %><li>
         <li><%= link_to 'Contact', home_contact_path%></li>
-            
+        <li><%= link_to 'Pins', pins_path%></li>
+        
         <% if user_signed_in? %>
+          <li><%= link_to 'Add Pin', new_pin_path%></li>
           <li><%= link_to 'Edit Profile', edit_user_registration_path%></li>
           <li><%= link_to 'Logout', destroy_user_session_path, method: :delete %></li>
         <% else %>  

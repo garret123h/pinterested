@@ -26,6 +26,8 @@ gem 'jbuilder', '~> 2.7'
 # gem 'bcrypt', '~> 3.1.7'
 
 
+gem 'paperclip', '~> 6.1'
+
 group :development, :test do
   gem 'sqlite3'
 end

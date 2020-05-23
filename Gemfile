@@ -6,6 +6,10 @@ ruby '2.7.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.3'
 
+gem 'will_paginate', '~> 3.1', '>= 3.1.5'
+gem 'will_paginate-bootstrap', '~> 1.0', '>= 1.0.1'
+
+
 gem 'devise', '~> 4.7', '>= 4.7.1'
 
 gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
@@ -23,10 +27,17 @@ gem 'jbuilder', '~> 2.7'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+# gem 'bcrypt', '~> 3.1.7
 
+gem 'coffee-script', '~> 2.4', '>= 2.4.1'
 
 gem 'aws-sdk', '~> 3.0', '>= 3.0.1'
+
+gem 'masonry-rails', '~> 0.2.4'
+
+gem 'jquery-turbolinks'
+
+gem 'jquery-rails'
 
 gem 'paperclip', '~> 6.1'
 

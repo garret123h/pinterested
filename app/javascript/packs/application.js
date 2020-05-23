@@ -8,8 +8,6 @@ require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
 require("jquery")
-require("packs/masonry.pkgd.min.js")
-require("packs/pins.js")
 //= require jquery
 //= require jquery.turbolinks
 //= require jquery_ujs
